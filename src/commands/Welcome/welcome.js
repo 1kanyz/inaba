@@ -16,7 +16,7 @@ export default {
                 .setName('setup')
                 .setDescription('Set up the welcome message')
                 .addChannelOption(option =>
-                    option.setName('channel')
+                    option.setName('💬・général')
                         .setDescription('The channel to send welcome messages to')
                         .addChannelTypes(ChannelType.GuildText)
                         .setRequired(true))
